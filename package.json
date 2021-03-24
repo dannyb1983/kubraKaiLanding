@@ -14,8 +14,9 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "dependencies": {
+    "@material-ui/icons": "^4.11.2",
     "bootstrap": "^4.5.0",
-    "gatsby": "^2.23.7",
+    "gatsby": "^2.23.11",
     "gatsby-image": "^2.4.7",
     "gatsby-plugin-manifest": "^2.4.12",
     "gatsby-plugin-offline": "^3.2.11",
@@ -24,6 +25,7 @@
     "gatsby-plugin-sharp": "^2.6.12",
     "gatsby-source-filesystem": "^2.3.12",
     "gatsby-transformer-sharp": "^2.5.5",
+    "material-icons": "^0.5.4",
     "nanoid": "^3.1.10",
     "node-sass": "^4.14.1",
     "prop-types": "^15.7.2",
