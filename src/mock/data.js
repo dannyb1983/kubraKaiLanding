@@ -17,9 +17,9 @@ export const heroData = {
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'danny.jpg',
+  img: 'https://miro.medium.com/max/404/1*AFoartV9eLHjxw6N6XO0PA.gif',
   paragraphOne:
-    'Welcome to KubraKai, an open-source Web App for Kubernetes monitoring for engineers who don’t want to be tied to their computer. ',
+    'KubraKai is an open-source Web Application for Kubernetes monitoring for engineers who don’t want to be tied to their computer.',
   paragraphTwo:
     'KubraKai allows Users to create a profile for storing and tracking numerous Kubernetes Clusters, all within a mobile-first environment!',
   paragraphThree:

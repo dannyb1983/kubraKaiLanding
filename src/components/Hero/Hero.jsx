@@ -3,6 +3,7 @@ import { Container } from 'react-bootstrap';
 import Fade from 'react-reveal/Fade';
 import { Link } from 'react-scroll';
 import GitHubIcon from '@material-ui/icons/GitHub';
+import KeyboardArrowDownIcon from '@material-ui/icons/KeyboardArrowDown';
 import PortfolioContext from '../../context/context';
 
 const Header = () => {
@@ -23,7 +24,7 @@ const Header = () => {
   }, []);
 
   return (
-    <section id="hero" className="jumbotron">
+    <section id="hero" className="hero">
       <Container>
         <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={500} distance="30px">
           <h1 className="hero-title">
@@ -36,12 +37,17 @@ const Header = () => {
         <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
           <p className="hero-cta">
             <span className="cta-btn cta-btn--hero">
-              <Link to="https://github.com/oslabs-beta/KubraKai">
-                <GitHubIcon style={{ fontSize: 'Large' }} /> {cta}
-              </Link>
+              <div>
+                <a href="https://github.com/oslabs-beta/KubraKai">
+                  <GitHubIcon style={{ fontSize: '20', color: 'Black' }} /> {cta}
+                </a>
+              </div>
             </span>
           </p>
         </Fade>
+        <Link to="about" smooth duration={1000}>
+          <KeyboardArrowDownIcon style={{ fontSize: '80', position: 'absolute', bottom: '50' }} />
+        </Link>
       </Container>
     </section>
   );

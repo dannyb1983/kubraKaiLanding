@@ -24,7 +24,8 @@ const AboutImg = ({ filename, alt }) => (
     `}
     render={(data) => {
       const image = data.images.edges.find((n) => n.node.relativePath.includes(filename));
-
+      // const image = <img src="https://miro.medium.com/max/404/1*AFoartV9eLHjxw6N6XO0PA.gif" alt=""/>
+      // console.log('the image is: ', image)
       if (!image) return null;
 
       const imageFixed = image.node.childImageSharp.fixed;

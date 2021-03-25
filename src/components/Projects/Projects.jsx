@@ -1,7 +1,7 @@
 import React, { useContext, useEffect, useState } from 'react';
 import Fade from 'react-reveal/Fade';
 import Tilt from 'react-tilt';
-import { Container /* , Row, Col */ } from 'react-bootstrap';
+import { Container } from 'react-bootstrap';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import PortfolioContext from '../../context/context';
 import Title from '../Title/Title';
@@ -34,8 +34,6 @@ const Projects = () => {
               const { title, url, /* repo, */ img /* , id */ } = project;
 
               return (
-                // <Row key={id}>
-                //   <Col lg={4} sm={12}>
                 <Fade
                   left={isDesktop}
                   bottom={isMobile}
@@ -93,9 +91,6 @@ const Projects = () => {
                     </a>
                   </div>
                 </Fade>
-                //   </Col>
-                //   <Col lg={8} sm={12} />
-                // </Row>
               );
             })}
           </Container>
