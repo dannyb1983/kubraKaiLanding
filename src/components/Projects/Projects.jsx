@@ -2,6 +2,7 @@ import React, { useContext, useEffect, useState } from 'react';
 import Fade from 'react-reveal/Fade';
 import Tilt from 'react-tilt';
 import { Container /* , Row, Col */ } from 'react-bootstrap';
+import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import PortfolioContext from '../../context/context';
 import Title from '../Title/Title';
 import ProjectImg from '../Image/ProjectImg';
@@ -86,6 +87,8 @@ const Projects = () => {
                       className="cta-btn cta-btn--hero"
                       href={url || '#!'}
                     >
+                      <LinkedInIcon style={{ fontSize: 'Large', color: 'Black' }} />
+                      {'  '}
                       LinkedIn
                     </a>
                   </div>

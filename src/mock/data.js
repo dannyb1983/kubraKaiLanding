@@ -17,10 +17,13 @@ export const heroData = {
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
+  img: 'danny.jpg',
+  paragraphOne:
+    'Welcome to KubraKai, an open-source Web App for Kubernetes monitoring for engineers who don’t want to be tied to their computer. ',
+  paragraphTwo:
+    'KubraKai allows Users to create a profile for storing and tracking numerous Kubernetes Clusters, all within a mobile-first environment!',
+  paragraphThree:
+    'Users are able to create personalized profiles to store the IP addresses of their Kubernetes Clusters. Once set up, users are able to monitor the metrics of their Clusters. Every users information is safely encrypted to ensure premium data security.',
   resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
 };
 
@@ -30,29 +33,25 @@ export const projectsData = [
     id: nanoid(),
     img: 'danny.jpg',
     title: 'Danny',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://www.linkedin.com/in/Danny-Balistocky/',
   },
   {
     id: nanoid(),
     img: 'jordan.png',
     title: 'Jordan',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://www.linkedin.com/in/jordan-king7/',
   },
   {
     id: nanoid(),
     img: 'anthony.jpg',
     title: 'Anthony',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://www.linkedin.com/in/anthony-martinez-8609683/',
   },
   {
     id: nanoid(),
     img: 'taylor.png',
     title: 'Taylor',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://www.linkedin.com/in/taylor-davis-6b725b1ba/',
   },
 ];
 
@@ -61,35 +60,4 @@ export const contactData = {
   cta: '',
   btn: '',
   email: '',
-};
-
-// FOOTER DATA
-export const footerData = {
-  networks: [
-    {
-      id: nanoid(),
-      name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'linkedin',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'github',
-      url: '',
-    },
-  ],
-};
-
-// Github start/fork buttons
-export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
 };

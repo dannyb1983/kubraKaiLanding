@@ -36,7 +36,7 @@ const Header = () => {
         <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
           <p className="hero-cta">
             <span className="cta-btn cta-btn--hero">
-              <Link to="insert our github link here">
+              <Link to="https://github.com/oslabs-beta/KubraKai">
                 <GitHubIcon style={{ fontSize: 'Large' }} /> {cta}
               </Link>
             </span>
