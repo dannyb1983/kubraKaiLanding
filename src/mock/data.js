@@ -33,7 +33,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'danny.jpg',
     title: 'Danny',
-    url: 'https://www.linkedin.com/in/Danny-Balistocky/',
+    url: 'https://www.linkedin.com/in/dannyb1983/',
   },
   {
     id: nanoid(),
